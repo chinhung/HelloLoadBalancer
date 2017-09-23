@@ -1,0 +1,1 @@
+docker run -d -p 28080:80 --name load_balancer.nginx load_balancer/nginx nginx -g "daemon off;"

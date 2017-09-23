@@ -1,0 +1,2 @@
+docker run -d --name load_balancer.tomcat1 -p 8787:8080 deployer/tomcat
+docker run -d --name load_balancer.tomcat2 -p 8686:8080 deployer/tomcat
